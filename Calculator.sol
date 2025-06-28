@@ -22,6 +22,10 @@ contract Calculator {
         result = result ** num;
     }
 
+    function clear() public{
+        result = 0;
+    }
+
     function get() public view returns(int256){
         return result;
     }
