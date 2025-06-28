@@ -18,6 +18,10 @@ contract Calculator {
         result *= num;
     }
 
+    function exponentiation(uint num) public{
+        result = result ** num;
+    }
+
     function get() public view returns(uint256){
         return result;
     }
